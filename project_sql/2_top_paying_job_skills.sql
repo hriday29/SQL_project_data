@@ -17,19 +17,21 @@ WITH top_paying_jobs AS (
         job_posted_date
     FROM job_postings_fact
     JOIN company_dim cd ON cd.company_id = job_postings_fact.company_id
-    WHERE 
+    WHERE
         job_postings_fact.job_title_short = 'Data Analyst'
         AND job_postings_fact.salary_year_avg IS NOT NULL
         AND job_postings_fact.job_location = 'Anywhere'
-    ORDER BY job_postings_fact.salary_year_avg DESC
-    LIMIT 10
 )
 
-SELECT tpj.*, sd.skills, sd.type
+SELECT
+    tpj.*,
+    sd.skills,
+    sd.type
 FROM top_paying_jobs tpj
 INNER JOIN skills_job_dim sjd ON sjd.job_id = tpj.job_id
 INNER JOIN skills_dim sd ON sd.skill_id = sjd.skill_id
-ORDER BY tpj.salary_year_avg DESC;
+ORDER BY tpj.salary_year_avg DESC
+LIMIT 25;
 
 
 /* 
