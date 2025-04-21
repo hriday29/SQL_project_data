@@ -20,14 +20,13 @@ The modern job market is evolving, and data analysts are in high demand across i
 
 # Tools I Used
 
-SQL – Core language for data extraction and analysis
-
-MySQL / PostgreSQL
-
-Google Sheets / Excel – For basic result formatting
-
-VS Code – SQL development environment
-
+- **SQL** – Core language for data extraction and analysis  
+- **PostgreSQL** 
+- **Google Sheets / Excel** – For basic result formatting  
+- **VS Code** – SQL development environment  
+- **Git** – For version control and tracking changes  
+- **GitHub** – For hosting and showcasing the project
+  
 # The Analysis
 
 Each SQL file targets a specific business question:
