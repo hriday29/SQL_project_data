@@ -34,6 +34,25 @@ Each SQL file targets a specific business question:
 ### 1️⃣ 1_top_paying_jobs.sql  
 Identifies the highest-paying data analyst job titles.
 
+'''sql
+SELECT
+    job_id,
+    cd.name,
+    job_title,
+    job_location,
+    job_schedule_type,
+    salary_year_avg,
+    job_posted_date
+FROM job_postings_fact
+JOIN company_dim cd ON cd.company_id = job_postings_fact.company_id
+WHERE 
+    job_postings_fact.job_title_short = 'Data Analyst'
+    AND job_postings_fact.salary_year_avg IS NOT NULL
+    AND job_postings_fact.job_location = 'Anywhere'
+ORDER BY job_postings_fact.salary_year_avg DESC
+LIMIT 10;
+'''
+
 **📍 Key Output:** Job title, average/max salary, job count  
 **🔍 Use Case:** Helps prioritize career paths based on compensation
 
