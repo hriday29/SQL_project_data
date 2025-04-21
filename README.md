@@ -88,6 +88,6 @@ The “optimal skill zone” lies at the intersection of demand and compensation
 
 🛠️ Most demanded skills: SQL, Excel, Python, Tableau, Communication
 
-📈 Best ROI skills: SQL, Power BI, Python, AWS, Statistics
+📈 Best ROI skills: SQL, Go, Hadoop, Confluence etc.
 
 🌟 Pro tip: Stack technical skills with business acumen for standout profiles
