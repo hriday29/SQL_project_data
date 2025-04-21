@@ -73,13 +73,13 @@ Combines demand and salary to find the “optimal skills” with high pay and hi
 
 # What I Learned
 
-SQL enables powerful pattern discovery within job and skills datasets.
+- SQL enables powerful pattern discovery within job and skills datasets.
 
-Certain high-paying roles require niche skill combos (e.g., SQL + Tableau + Python).
+- Certain high-paying roles require niche skill combos (e.g., SQL + Tableau + Python).
 
-Skills like SQL and Excel are widespread, but Python and Power BI often tip salaries higher.
+- Skills like SQL and Excel are widespread, but Python and Power BI often tip salaries higher.
 
-The “optimal skill zone” lies at the intersection of demand and compensation, not just popularity.
+- The “optimal skill zone” lies at the intersection of demand and compensation, not just popularity.
 
 # Conclusions
 
