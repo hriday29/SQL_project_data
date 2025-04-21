@@ -21,7 +21,7 @@ The modern job market is evolving, and data analysts are in high demand across i
 # Tools I Used
 
 - **SQL** – Core language for data extraction and analysis  
-- **PostgreSQL** 
+- **PostgreSQL** – Primary database management system used for querying and exploring job/skills data
 - **Google Sheets / Excel** – For basic result formatting  
 - **VS Code** – SQL development environment  
 - **Git** – For version control and tracking changes  
