@@ -32,11 +32,11 @@ VS Code – SQL development environment
 
 Each SQL file targets a specific business question:
 
-1️⃣ ### 1_top_paying_jobs.sql
+### 1️⃣ 1_top_paying_jobs.sql  
 Identifies the highest-paying data analyst job titles.
 
-📍 Key Output: Job title, average/max salary, job count
-🔍 Use Case: Helps prioritize career paths based on compensation
+**📍 Key Output:** Job title, average/max salary, job count  
+**🔍 Use Case:** Helps prioritize career paths based on compensation
 
 2️⃣ ### 2_top_paying_job_skills.sql
 Analyzes which skills are associated with the highest-paying roles.
