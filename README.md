@@ -70,6 +70,8 @@ Combines demand and salary to find the “optimal skills” with high pay and hi
 **📍 Key Output:** Skill, demand rank, salary rank, composite score  
 **🚀 Use Case:** Prioritizes learning path for aspiring analysts based on ROI
 
+---
+
 # What I Learned
 
 SQL enables powerful pattern discovery within job and skills datasets.
