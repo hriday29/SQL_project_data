@@ -16,7 +16,7 @@ The modern job market is evolving, and data analysts are in high demand across i
 
 4. How can aspiring analysts position themselves for maximum ROI?
 
-5. What are the most optimal skills
+5. What are the most optimal skills?
 
 # Tools I Used
 
